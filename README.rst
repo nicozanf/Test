@@ -72,7 +72,7 @@ This will install the latest stable release of py4web and all its dependencies o
 Launch Arguments
 ################
 
-..
+.. code-block:: none
 
    # py4web run -h
 
