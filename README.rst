@@ -143,7 +143,7 @@ The wsgi function takes arguments with the same name as the command line argumen
 ************
 Inserted contributors:
 
-.. include:: CONTRIBUTORS.rst
+.. include:: ../CONTRIBUTORS.rst
 *********
 
 ## Contributors
