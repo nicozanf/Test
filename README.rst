@@ -1,11 +1,13 @@
 `YouTube <https://www.youtube.com/results?search_query=py4web>`__.
 
-py4web
-======
+What is py4web?
+===============
+PY4WEB is a web framework for rapid development of efficient database driven web applications. It is an evolution of the popular web2py framework but much faster and slicker.
+
 
 .. image:: https://travis-ci.org/web2py/py4web.svg?branch=master
     :target: https://travis-ci.org/web2py/py4web
-    
+
 Main site:  https://py4web.com
 
 GitHub repository: https://github.com/web2py/py4web
@@ -14,9 +16,7 @@ Official documentation site: https://py4web.com/_documentation
 
 License: `BSD-3-Clause License <https://github.com/web2py/py4web/blob/master/LICENSE.md>`__
 
-What is py4web?
-###############
-PY4WEB is a web framework for rapid development of efficient database driven web applications. It is an evolution of the popular web2py framework but much faster and slicker.
+
 
 Screenshots
 ###########
@@ -38,12 +38,12 @@ Installation
 
 PY4WEB runs fine on Windows, MacOS and Linux. There are many installation procedures (see the official documentation for details) but only two of them are summarized here.
 
-Using 'binaries' is the **simplest way** for starting py4web, but only for Windows and MacOS. This is meant especially for newbies or students, because it does not require Python pre-installed on your system nor administrative rights. You just need to download the latest Windows or MacOS ZIP file from [this external repository](https://github.com/nicozanf/py4web-pyinstaller). Unzip it on a local folder and open a command line there. Finally run the commands (omit './' if you're using Windows)
+The **simplest way** to install py4web is using binaries, but it's only available for Windows and MacOS. It's meant especially for newbies or students, because it does not require Python pre-installed on your system nor administrative rights. You just need to download the latest Windows or MacOS ZIP file from `this external repository <https://github.com/nicozanf/py4web-pyinstaller>`__. Unzip it on a local folder and open a command line there. Finally run the commands (omit './' if you're using Windows)
 
 
 .. code:: bash
-   ./py4web-start set_password
-   ./py4web-start run apps
+   z./py4web-start set_password
+   z./py4web-start run apps
 
 
 
