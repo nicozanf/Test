@@ -21,9 +21,13 @@ PY4WEB is a web framework for rapid development of efficient database driven web
 Screenshots
 ###########
 
+The main Dashboard
 .. image:: docs/images/dashboard_main.png
-.. image:: docs/images/dashboard_login.png
+
+Editing a file in the Dashboard
 .. image:: docs/images/dashboard_edit.png
+
+Editing a database in the Dashboard
 .. image:: docs/images/dashboard_restapi.png
 
 Installation
