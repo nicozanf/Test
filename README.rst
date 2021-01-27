@@ -140,6 +140,12 @@ The wsgi function takes arguments with the same name as the command line argumen
 - bottle (done)
 
 
+************
+Inserted contributors:
+
+.. include:: CONTRIBUTORS.rst
+*********
+
 ## Contributors
 
 - [Cassio Botaro](https://github.com/cassiobotaro)
