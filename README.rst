@@ -1,16 +1,18 @@
-[py4web](http://py4web.com)
-===========================
+`YouTube <https://www.youtube.com/results?search_query=py4web>`__.
 
-[![Build Status](https://img.shields.io/travis/web2py/py4web/master.svg?style=flat-square&label=Travis-CI)](https://travis-ci.org/web2py/py4web)
+py4web
+======
+Main site:  https://py4web.com
+GitHub repository: https://github.com/web2py/py4web
+Official documentation site: https://py4web.com/_documentation
+License: `BSD-3-Clause License<https://github.com/web2py/py4web/blob/master/LICENSE.md>`__
+
+.. image:: https://travis-ci.org/web2py/py4web.svg?branch=master
+    :target: https://travis-ci.org/web2py/py4web
 
 ## What is py4web?
-PY4WEB is a web framework for rapid development of efficient database driven web applications. It is an evolution of the popular web2py framework but much faster and slicker. The official documentation is on https://py4web.com/_documentation
+PY4WEB is a web framework for rapid development of efficient database driven web applications. It is an evolution of the popular web2py framework but much faster and slicker.
 
-
-License
-#######
-
-BSD
 
 Installation
 ############
