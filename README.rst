@@ -1,4 +1,5 @@
-# [py4web](http://py4web.com)
+[py4web](http://py4web.com)
+===========================
 
 [![Build Status](https://img.shields.io/travis/web2py/py4web/master.svg?style=flat-square&label=Travis-CI)](https://travis-ci.org/web2py/py4web)
 
@@ -141,11 +142,16 @@ The wsgi function takes arguments with the same name as the command line argumen
 - bottle (done)
 
 
-## Contributors
+Contributors
+############
+
+py4web is supported by a growing community of developers and even simple users.
+Many thanks to everybody, and especially:
 
 .. include:: CONTRIBUTORS.rst
 
-## Screenshots
+Screenshots
+###########
 
 .. image:: docs/images/dashboard_login.png
 
