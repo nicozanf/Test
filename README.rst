@@ -1,20 +1,17 @@
-`YouTube <https://www.youtube.com/results?search_query=py4web>`__.
-
 What is py4web?
 ===============
-PY4WEB is a web framework for rapid development of efficient database driven web applications. It is an evolution of the popular web2py framework but much faster and slicker.
 
 
 .. image:: https://travis-ci.org/web2py/py4web.svg?branch=master
     :target: https://travis-ci.org/web2py/py4web
 
-Main site:  https://py4web.com
+PY4WEB is a web framework for rapid development of efficient database driven web applications. It is an evolution of the popular web2py framework but much faster and slicker.
 
-GitHub repository: https://github.com/web2py/py4web
 
-Official documentation site: https://py4web.com/_documentation
-
-License: `BSD-3-Clause License <https://github.com/web2py/py4web/blob/master/LICENSE.md>`__
+-  Main web site:  https://py4web.com
+-  GitHub repository: https://github.com/web2py/py4web
+-  Official documentation site: https://py4web.com/_documentation
+-  License: `BSD-3-Clause License <https://github.com/web2py/py4web/blob/master/LICENSE.md>`__
 
 
 
@@ -42,15 +39,17 @@ The **simplest way** to install py4web is using binaries, but it's only availabl
 
 
 .. code:: bash
-   z./py4web-start set_password
-   z./py4web-start run apps
+
+   ./py4web-start set_password
+   ./py4web-start run apps
 
 
 
 
-Using ''pip'' is the **standard installation procedure** for py4web on Windows, MacOS and Linux. Its only prerequisite is Python 3.6+.
+The **standard installation procedure** for py4web on Windows, MacOS and Linux  is using pip. Its only prerequisite is Python 3.6+.
 
 .. code:: bash
+
    python3 -m pip install --upgrade py4web --no-cache-dir --user
 
 
@@ -69,13 +68,16 @@ This will install the latest stable release of py4web and all its dependencies o
 Launch Arguments
 ################
 
-```
-# py4web run -h
-Usage: py4web.py run [OPTIONS] [APPS_FOLDER]
+..
+   # py4web run -h
 
-  Run all the applications on apps_folder
+   Usage: py4web.py run [OPTIONS] [APPS_FOLDER]
+ 
+  
+      Run all the applications on apps_folder
 
-Options:
+
+   Options:
   -Y, --yes                     No prompt, assume yes to questions  [default:
                                 False]
 
@@ -95,20 +97,22 @@ Options:
   --ssl_key PATH                SSL key file for HTTPS
   -help, -h, --help             Show this message and exit.
 
-```
+
 
 Example:
 
 
-```
-py4web run -H 127.0.0.1 -P 8000 -d demo apps
-```
+.. code:: bash
+
+   py4web run -H 127.0.0.1 -P 8000 -d demo apps
+
 
 Note that since the default (as specified above) for the host and port are 127.0.0.1 and 8000 respectively, the above command can be shortened to:
 
-```
-py4web run -d demo apps
-```
+.. code:: bash
+
+   py4web run -d demo apps
+
 
 Tell me more
 ############
