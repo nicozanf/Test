@@ -2,6 +2,10 @@
 
 py4web
 ======
+
+.. image:: https://travis-ci.org/web2py/py4web.svg?branch=master
+    :target: https://travis-ci.org/web2py/py4web
+    
 Main site:  https://py4web.com
 
 GitHub repository: https://github.com/web2py/py4web
@@ -10,13 +14,17 @@ Official documentation site: https://py4web.com/_documentation
 
 License: `BSD-3-Clause License <https://github.com/web2py/py4web/blob/master/LICENSE.md>`__
 
-.. image:: https://travis-ci.org/web2py/py4web.svg?branch=master
-    :target: https://travis-ci.org/web2py/py4web
-
 What is py4web?
 ###############
 PY4WEB is a web framework for rapid development of efficient database driven web applications. It is an evolution of the popular web2py framework but much faster and slicker.
 
+Screenshots
+###########
+
+.. image:: docs/images/dashboard_main.png
+.. image:: docs/images/dashboard_login.png
+.. image:: docs/images/dashboard_edit.png
+.. image:: docs/images/dashboard_restapi.png
 
 Installation
 ############
@@ -156,17 +164,3 @@ Many thanks to everybody, and especially:
 
 .. include:: CONTRIBUTORS.rst
 
-Screenshots
-###########
-
-.. image:: docs/images/dashboard_login.png
-
-![](https://raw.githubusercontent.com/web2py/py4web/master/apps/_documentation/static/screenshots/dashboard_main.png)
-
-![](https://raw.githubusercontent.com/web2py/py4web/master/apps/_documentation/static/screenshots/dashboard_edit.png)
-
-![](https://raw.githubusercontent.com/web2py/py4web/master/apps/_documentation/static/screenshots/dashboard_restapi.png)
-
-![](https://raw.githubusercontent.com/web2py/py4web/master/apps/_documentation/static/screenshots/dashboard_error.png)
-
-![](https://raw.githubusercontent.com/web2py/py4web/master/apps/_documentation/static/screenshots/dashboard_ticket.png)
