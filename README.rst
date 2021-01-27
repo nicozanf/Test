@@ -22,12 +22,15 @@ Screenshots
 ###########
 
 The main Dashboard
+
 .. image:: docs/images/dashboard_main.png
 
 Editing a file in the Dashboard
+
 .. image:: docs/images/dashboard_edit.png
 
 Editing a database in the Dashboard
+
 .. image:: docs/images/dashboard_restapi.png
 
 Installation
