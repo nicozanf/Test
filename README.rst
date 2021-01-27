@@ -5,13 +5,14 @@
 ## What is py4web?
 PY4WEB is a web framework for rapid development of efficient database driven web applications. It is an evolution of the popular web2py framework but much faster and slicker. The official documentation is on https://py4web.com/_documentation
 
-.. image:: docs/images/dashboard_login.png
 
-## License
+License
+#######
 
 BSD
 
-## Installation
+Installation
+############
 
 PY4WEB runs fine on Windows, MacOS and Linux. There are four installation procedures (see the official documentation for details) but only two of them are summarized here.
 
@@ -140,28 +141,13 @@ The wsgi function takes arguments with the same name as the command line argumen
 - bottle (done)
 
 
-************
-Inserted contributors:
-
-.. include:: ../CONTRIBUTORS.rst
-*********
-
 ## Contributors
 
-- [Cassio Botaro](https://github.com/cassiobotaro)
-- [Dan Carroll](https://github.com/dan-carroll)
-- [Jim Steil](https://github.com/jpsteil)
-- [John M. Wolf](https://github.com/jmwolff3)
-- [Massimo Di Pierro](https://github.com/mdipierro)
-- [Micah Beasley](https://github.com/MBfromOK)
-- [Nico Zanferrari](https://github.com/nicozanf)
-- [Pirsch](https://github.com/Pirsch)
-- [sugizo](https://github.com/sugizo)
-- [valq7711](https://github.com/valq7711)
+.. include:: CONTRIBUTORS.rst
 
 ## Screenshots
 
-![](https://raw.githubusercontent.com/web2py/py4web/master/apps/_documentation/static/screenshots/dashboard_login.png)
+.. image:: docs/images/dashboard_login.png
 
 ![](https://raw.githubusercontent.com/web2py/py4web/master/apps/_documentation/static/screenshots/dashboard_main.png)
 
