@@ -38,13 +38,14 @@ Installation
 
 PY4WEB runs fine on Windows, MacOS and Linux. There are four installation procedures (see the official documentation for details) but only two of them are summarized here.
 
-Using ''binaries'' is the **simplest way** for starting py4web, but only for Windows and MacOS. This is meant especially for newbies or students, because it does not require Python pre-installed on your system nor administrative rights. You just need to download the latest Windows or MacOS ZIP file from [this external repository](https://github.com/nicozanf/py4web-pyinstaller). Unzip it on a local folder and open a command line there. Finally run
+Using ''binaries'' is the **simplest way** for starting py4web, but only for Windows and MacOS. This is meant especially for newbies or students, because it does not require Python pre-installed on your system nor administrative rights. You just need to download the latest Windows or MacOS ZIP file from [this external repository](https://github.com/nicozanf/py4web-pyinstaller). Unzip it on a local folder and open a command line there. Finally run the commands (omit './' if you're using Windows)
 
 
-```
-py4web-start set_password
-py4web-start run apps
-```
+``
+./py4web-start set_password
+./py4web-start run apps
+``
+
 
 
 Using ''pip'' is the **standard installation procedure** for py4web on Windows, MacOS and Linux. Its only prerequisite is Python 3.6+.
@@ -57,7 +58,7 @@ but do **not** type the ''--user'' option with virtualenv or a standard Windows 
 Also, if ''python3'' does not work, try with the simple ''python'' command instead.
 
 
-This will install py4web and all its dependencies on the system's path only. After the installation you'll be able to start py4web on any given working folder with
+This will install the latest stable release of py4web and all its dependencies on the system's path only. After the installation you'll be able to start py4web on any given working folder with
 
 ```
 py4web setup apps
@@ -108,17 +109,6 @@ Note that since the default (as specified above) for the host and port are 127.0
 py4web run -d demo apps
 ```
 
-## WSGI
-
-py4web is a WSGI application. To obtain the WSGI app simply do:
-
-```
-from py4web.core import wsgi
-application = wsgi()
-```
-
-The wsgi function takes arguments with the same name as the command line arguments.
-
 ## Tell me more
 
 - this is a work in progress and not stable yet but close to being stable
@@ -135,32 +125,14 @@ The wsgi function takes arguments with the same name as the command line argumen
 - implements a cache.memoize (Ram cache with O(1) access) [Memoize](https://dbader.org/blog/python-memoization)
 - supports multiple apps under apps folder (same as web2py)
 - unlike web2py does not use a custom importer or eval
-- admin has been replaced by a _dashboard (90% done)
-- appadmin has been replaced by dbadmin (within dashboard) (90% done)
-- auth logic is implemented via a "auth" vue.js custom component (90% done)
+- admin has been replaced by a _dashboard
+- appadmin has been replaced by dbadmin (within dashboard)
+- auth logic is implemented via a "auth" vue.js custom component
 - SQLFORM has been replaced by py4web/utils/form.py
-- SQLFORM.grid was been replaced by a "mtable" vue.js custom component (90% done)
+- SQLFORM.grid was been replaced by a "mtable" vue.js custom component
 - there are not enough tests
 - it is not as stable as web2py yet
 - it is 10-20x faster than web2py
-
-## Components
-
-- pydal + dbapi (done)
-- yatl (done)
-- pluralize (done)
-- auth (WIP, 90%)
-- mailer (done)
-- session (cookies, db, redis, memcache)
-- form (done up to downloads)
-- mtable (WIP, 75%)
-- dashboard (90% done)
-- scaffold (done)
-- bus (0%)
-- tornado (done)
-- gevent (done)
-- gunicorn (done)
-- bottle (done)
 
 
 Contributors
