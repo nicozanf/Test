@@ -143,13 +143,14 @@ Tell me more
 - it is not as stable as web2py yet
 - it is 10-20x faster than web2py
 
-.. inclusion-marker-do-not-remove
+
 Contributors
 ############
 
 py4web is supported by a growing community of developers and even simple users.
 Many thanks to everybody, and especially:
 
+.. inclusion-marker-do-not-remove
 
 - `Massimo Di Pierro <https://github.com/mdipierro>`__
 - `Cassio Botaro <https://github.com/cassiobotaro>`__
