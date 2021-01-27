@@ -18,6 +18,10 @@ PY4WEB is a web framework for rapid development of efficient database driven web
 Screenshots
 ###########
 
+Running py4web
+
+.. image:: docs/images/first_run.png
+
 The main Dashboard
 
 .. image:: docs/images/dashboard_main.png
@@ -68,7 +72,7 @@ This will install the latest stable release of py4web and all its dependencies o
 Launch Arguments
 ################
 
-.. code:: bash
+..
 
    # py4web run -h
 
