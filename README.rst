@@ -68,35 +68,33 @@ This will install the latest stable release of py4web and all its dependencies o
 Launch Arguments
 ################
 
-..
+.. code:: bash
 
    # py4web run -h
 
    Usage: py4web.py run [OPTIONS] [APPS_FOLDER]
- 
   
       Run all the applications on apps_folder
 
-
    Options:
-  -Y, --yes                     No prompt, assume yes to questions  [default:
+   -Y, --yes                     No prompt, assume yes to questions  [default:
                                 False]
 
-  -H, --host TEXT               Host name  [default: 127.0.0.1]
-  -P, --port INTEGER            Port number  [default: 8000]
-  -p, --password_file TEXT      File for the encrypted password  [default:
+   -H, --host TEXT               Host name  [default: 127.0.0.1]
+   -P, --port INTEGER            Port number  [default: 8000]
+   -p, --password_file TEXT      File for the encrypted password  [default:
                                 password.txt]
 
-  -w, --number_workers INTEGER  Number of workers  [default: 0]
-  -d, --dashboard_mode TEXT     Dashboard mode: demo, readonly, full
+   -w, --number_workers INTEGER  Number of workers  [default: 0]
+   -d, --dashboard_mode TEXT     Dashboard mode: demo, readonly, full
                                 (default), none  [default: full]
 
-  --watch [off|sync|lazy]       Watch python changes and reload apps
+   --watch [off|sync|lazy]       Watch python changes and reload apps
                                 automatically, modes: off (default), sync,
                                 lazy
-  --ssl_cert PATH               SSL certificate file for HTTPS
-  --ssl_key PATH                SSL key file for HTTPS
-  -help, -h, --help             Show this message and exit.
+   --ssl_cert PATH               SSL certificate file for HTTPS
+   --ssl_key PATH                SSL key file for HTTPS
+   -help, -h, --help             Show this message and exit.
 
 
 
