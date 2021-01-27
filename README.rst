@@ -41,18 +41,17 @@ PY4WEB runs fine on Windows, MacOS and Linux. There are four installation proced
 Using ''binaries'' is the **simplest way** for starting py4web, but only for Windows and MacOS. This is meant especially for newbies or students, because it does not require Python pre-installed on your system nor administrative rights. You just need to download the latest Windows or MacOS ZIP file from [this external repository](https://github.com/nicozanf/py4web-pyinstaller). Unzip it on a local folder and open a command line there. Finally run the commands (omit './' if you're using Windows)
 
 
-``
-./py4web-start set_password
-./py4web-start run apps
-``
+.. code:: bash
+   ./py4web-start set_password
+   ./py4web-start run apps
+
 
 
 
 Using ''pip'' is the **standard installation procedure** for py4web on Windows, MacOS and Linux. Its only prerequisite is Python 3.6+.
 
-```
-python3 -m pip install --upgrade py4web --no-cache-dir --user
-```
+.. code:: bash
+   python3 -m pip install --upgrade py4web --no-cache-dir --user
 
 but do **not** type the ''--user'' option with virtualenv or a standard Windows installation which is already per-user.
 Also, if ''python3'' does not work, try with the simple ''python'' command instead.
@@ -60,13 +59,14 @@ Also, if ''python3'' does not work, try with the simple ''python'' command inste
 
 This will install the latest stable release of py4web and all its dependencies on the system's path only. After the installation you'll be able to start py4web on any given working folder with
 
-```
-py4web setup apps
-py4web set_password
-py4web run apps
-```
+.. code:: bash
 
-## Launch Arguments
+   py4web setup apps
+   py4web set_password
+   py4web run apps
+
+Launch Arguments
+################
 
 ```
 # py4web run -h
@@ -109,7 +109,8 @@ Note that since the default (as specified above) for the host and port are 127.0
 py4web run -d demo apps
 ```
 
-## Tell me more
+Tell me more
+############
 
 - this is a work in progress and not stable yet but close to being stable
 - python3.6+ only
