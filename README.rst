@@ -131,14 +131,14 @@ Tell me more
 - HTTP and redirect are our own objects
 - like web2py, it supports static asset management /{appname}/static/_0.0.0/{path}
 - implements sessions in cookies (jwt encrypted), db, memcache, redis and custom
-- implements a cache.memoize (Ram cache with O(1) access) [Memoize](https://dbader.org/blog/python-memoization)
+- implements a cache.memoize (Ram cache with O(1) access) `Memoize <https://dbader.org/blog/python-memoization>`__
 - supports multiple apps under apps folder (same as web2py)
 - unlike web2py does not use a custom importer or eval
 - admin has been replaced by a _dashboard
 - appadmin has been replaced by dbadmin (within dashboard)
 - auth logic is implemented via a "auth" vue.js custom component
 - SQLFORM has been replaced by py4web/utils/form.py
-- SQLFORM.grid was been replaced by a "mtable" vue.js custom component
+- it comes with a Grid object providing simple grid and CRUD capabilities
 - there are not enough tests
 - it is not as stable as web2py yet
 - it is 10-20x faster than web2py
