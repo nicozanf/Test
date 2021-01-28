@@ -122,4 +122,3 @@ Many thanks to everybody, and especially:
 
 .. include:: ../README.rst
   :start-after: inclusion-marker-do-not-remove
-
