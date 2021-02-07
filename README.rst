@@ -13,6 +13,33 @@ PY4WEB is a web framework for rapid development of efficient database driven web
 -  Official documentation site: https://py4web.com/_documentation
 -  License: `BSD-3-Clause License <https://github.com/web2py/py4web/blob/master/LICENSE.md>`__
 
+.. tabs::
+
+   .. group-tab:: Linux
+
+      Linux Line 1
+
+   .. group-tab:: Mac OSX
+
+      Mac OSX Line 1
+
+   .. group-tab:: Windows
+
+      Windows Line 1
+
+.. tabs::
+
+   .. group-tab:: Linux
+
+      Linux Line 1
+
+   .. group-tab:: Mac OSX
+
+      Mac OSX Line 1
+
+   .. group-tab:: Windows
+
+      Windows Line 1
 
 
 Screenshots
